@@ -1,0 +1,203 @@
+/* Css Reset  */
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #b6d6d6;
+    font-family:  sans-serif;
+   
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 37rem;
+}
+.container h1 img{
+height: 80px;
+opacity: 0.8;
+}
+#name{
+    padding: 25px;
+    font-size: 5.2rem;
+    margin: 0;
+    font-family: 'Sacramento', cursive;
+}
+/* header tags  */
+h1,h2{
+    color: #1e411a;
+    text-shadow: 5px 5px 5px rgb(248, 248, 248); 
+}
+/* span  */
+span{
+    text-decoration: underline;
+    text-align: center;
+}
+
+h3{
+    color: #11999e;
+    width: 50%;
+    margin: 1px auto;
+    text-align: center;
+    font-size: 2.8rem;
+}
+h4{
+    
+    color: #11999e;
+    /* width: 40%;
+    margin: 34px auto; */
+    text-align: left;
+    font-size: 1.4rem;
+    padding: 12px;
+}
+/* skill-row  */
+.dd{
+    
+    height: 260px;
+    width: 60%;
+    margin: 75px auto;
+    padding: 23px 34px;
+}
+.hwchallenge{
+    
+    height: 260px;
+    width: 60%;
+    margin: 75px auto;
+    padding: 23px 34px;
+}
+/* code image  */
+.dd img{
+    border-radius: 50%;
+    float: left;
+    margin-right: 50px;
+    border: solid 6px #52695d;
+    
+}
+.hwchallenge img{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    float: right;
+    margin-left: 50px;
+    border: solid 6px #526161;
+}
+/* paragraph */
+.para{
+    color: #40514e;
+    
+    width: 25%;
+    margin: 5px auto;
+    text-align: center;
+    padding: 12px;
+}
+.paraSkills{
+   
+    color: #40514e;
+    line-height: 2;
+    /* width: 40%;
+    margin: 5px auto; */
+    text-align: left;
+    padding: 12px;
+}
+
+/* hr tags  */
+hr{
+    color: #4e5050;
+    width: 10%;
+    margin: 104px auto;
+    text-align: center;
+    border-style: none;
+    border-top: 7px dotted;
+}
+.gettouch h4{
+width: 40%;
+    margin: 34px auto;
+    text-align: center;
+}
+/* button  */
+.btn {
+    display: block;         
+    width: 15%;
+    margin: 45px auto;
+    background: #34ced9;
+    background-image: -webkit-linear-gradient(top, #34ced9, #25a869);
+    background-image: -moz-linear-gradient(top, #34ced9, #25a869);
+    background-image: -ms-linear-gradient(top, #34ced9, #25a869);
+    background-image: -o-linear-gradient(top, #34ced9, #25a869);
+    background-image: linear-gradient(to bottom, #34ced9, #25a869);
+    -webkit-border-radius: 7;
+    -moz-border-radius: 7;
+    border-radius: 7px;
+    text-shadow: 5px 3px 6px #666666;
+    font-family: Georgia;
+    color: #ffffff;
+    font-size: 29px;
+    padding: 24px 2px 24px 2px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #3cfaa4;
+    background-image: -webkit-linear-gradient(top, #3cfaa4, #34d3d9);
+    background-image: -moz-linear-gradient(top, #3cfaa4, #34d3d9);
+    background-image: -ms-linear-gradient(top, #3cfaa4, #34d3d9);
+    background-image: -o-linear-gradient(top, #3cfaa4, #34d3d9);
+    background-image: linear-gradient(to bottom, #3cfaa4, #34d3d9);
+    text-decoration: none;
+  }
+
+/* anchor tags  */
+a{
+    color: #11999e;
+    padding: 10px;
+    font-size: 17px;
+    font-weight: bold;
+    text-decoration: none;
+}
+a:hover{
+    color: #eaf6f6;
+}
+.anchor{
+    display: flex;
+    margin-top: 30px;
+}
+/* footer  */
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #66BFBF;
+    height: 150px;
+    
+}
+#end{
+    color: #eaf6f6;
+    margin: auto;
+    text-align: center;
+    font-size: 12px;
+}
+/* IMAGES */
+.image img{
+    display: block;
+    height: 200px;
+    margin:  20px auto;
+
+}
+.container::before{
+    content: "";
+    background: url("../images/switzerland-862870_1280.jpg") no-repeat center center/cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+}
+.image{
+    margin-top: 100px;
+
+}
